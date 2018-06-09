@@ -29,7 +29,8 @@
 * git log --graph --pretty=oneline --abbrev-commit:查看漂亮的代码提交历史
 * git push --set-upstream origin develop(分支名):当远程仓库githup中没有开发分支时,将本地开发的分支提交到仓库里里
 * git branch -d develop:删除本地的develop分支
-* git push -d origin develop:删除远程的develop分支
+* git push --delete origin develop 删除远程的develop分支
+* git push -d origin develop:删除远程的develop分支(这个命令在ubanto没成功过)
 * git branch -D develop:强行删除develop分支
 * git srash 缓存工作区内容
 * git stash list 查看缓存区工作内容
