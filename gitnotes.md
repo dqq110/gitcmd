@@ -18,6 +18,7 @@
 * git rm filename(文件名) 删除文件
 * git show 查看改变
 * git branch 查看本地分支
+* git branch -r 查看远程分支
 * git status 查看本分支的文件情况
 * git checkout -b develop 新建并切换到分支
    等同于:$ git branch develop(分支名) 创建分支
